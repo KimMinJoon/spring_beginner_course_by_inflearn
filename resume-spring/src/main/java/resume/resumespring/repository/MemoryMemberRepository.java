@@ -1,11 +1,13 @@
 package resume.resumespring.repository;
 
+import org.springframework.stereotype.Repository;
 import resume.resumespring.domain.Member;
 
 import java.awt.*;
 import java.util.*;
 import java.util.List;
 
+@Repository
 public class MemoryMemberRepository implements MemberRepository{
 
     private static Map<Long, Member> store = new HashMap<>();
