@@ -8,7 +8,7 @@ import resume.resumespring.repository.MemoryMemberRepository;
 import java.util.List;
 import java.util.Optional;
 
-@Service
+
 public class MemberService {
 
     private final MemberRepository memberRepository;
